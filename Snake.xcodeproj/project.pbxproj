@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A98544918C30214006E9849 /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A98544818C30214006E9849 /* Number.m */; };
 		8A9EE5AA18BD748A00811BDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9EE5A918BD748A00811BDB /* Foundation.framework */; };
 		8A9EE5AC18BD748A00811BDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9EE5AB18BD748A00811BDB /* CoreGraphics.framework */; };
 		8A9EE5AE18BD748A00811BDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9EE5AD18BD748A00811BDB /* UIKit.framework */; };
@@ -24,6 +25,11 @@
 		8A9EE5D218BD748A00811BDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9EE5AD18BD748A00811BDB /* UIKit.framework */; };
 		8A9EE5DA18BD748A00811BDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A9EE5D818BD748A00811BDB /* InfoPlist.strings */; };
 		8A9EE5DC18BD748A00811BDB /* SnakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9EE5DB18BD748A00811BDB /* SnakeTests.m */; };
+		8A9EE5E718BD74AA00811BDB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9EE5E618BD74AA00811BDB /* GameScene.m */; };
+		8A9EE5EA18BE2A6100811BDB /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9EE5E918BE2A6100811BDB /* Dot.m */; };
+		8AECAC3318C6A4EC00054A58 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AECAC3218C6A4EC00054A58 /* GameKit.framework */; };
+		8AECAC3718C6A55100054A58 /* GameKitHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AECAC3618C6A55100054A58 /* GameKitHelper.m */; };
+		8AFF431F18C0F0D10053B250 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF431E18C0F0D10053B250 /* Button.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A98544718C30214006E9849 /* Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Number.h; sourceTree = "<group>"; };
+		8A98544818C30214006E9849 /* Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Number.m; sourceTree = "<group>"; };
 		8A9EE5A618BD748A00811BDB /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9EE5A918BD748A00811BDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A9EE5AB18BD748A00811BDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +68,15 @@
 		8A9EE5D718BD748A00811BDB /* SnakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnakeTests-Info.plist"; sourceTree = "<group>"; };
 		8A9EE5D918BD748A00811BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A9EE5DB18BD748A00811BDB /* SnakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnakeTests.m; sourceTree = "<group>"; };
+		8A9EE5E518BD74AA00811BDB /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		8A9EE5E618BD74AA00811BDB /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		8A9EE5E818BE2A6100811BDB /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		8A9EE5E918BE2A6100811BDB /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		8AECAC3218C6A4EC00054A58 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8AECAC3518C6A55100054A58 /* GameKitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameKitHelper.h; sourceTree = "<group>"; };
+		8AECAC3618C6A55100054A58 /* GameKitHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameKitHelper.m; sourceTree = "<group>"; };
+		8AFF431D18C0F0D10053B250 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		8AFF431E18C0F0D10053B250 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AECAC3318C6A4EC00054A58 /* GameKit.framework in Frameworks */,
 				8A9EE5AC18BD748A00811BDB /* CoreGraphics.framework in Frameworks */,
 				8A9EE5AE18BD748A00811BDB /* UIKit.framework in Frameworks */,
 				8A9EE5B018BD748A00811BDB /* SpriteKit.framework in Frameworks */,
@@ -109,6 +127,7 @@
 		8A9EE5A818BD748A00811BDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8AECAC3218C6A4EC00054A58 /* GameKit.framework */,
 				8A9EE5A918BD748A00811BDB /* Foundation.framework */,
 				8A9EE5AB18BD748A00811BDB /* CoreGraphics.framework */,
 				8A9EE5AD18BD748A00811BDB /* UIKit.framework */,
@@ -121,6 +140,7 @@
 		8A9EE5B118BD748A00811BDB /* Snake */ = {
 			isa = PBXGroup;
 			children = (
+				8AECAC3418C6A52A00054A58 /* GameKitFiles */,
 				8A9EE5BA18BD748A00811BDB /* AppDelegate.h */,
 				8A9EE5BB18BD748A00811BDB /* AppDelegate.m */,
 				8A9EE5BD18BD748A00811BDB /* Main.storyboard */,
@@ -131,6 +151,14 @@
 				8A9EE5C618BD748A00811BDB /* Spaceship.png */,
 				8A9EE5C818BD748A00811BDB /* Images.xcassets */,
 				8A9EE5B218BD748A00811BDB /* Supporting Files */,
+				8A9EE5E518BD74AA00811BDB /* GameScene.h */,
+				8A9EE5E618BD74AA00811BDB /* GameScene.m */,
+				8A9EE5E818BE2A6100811BDB /* Dot.h */,
+				8A9EE5E918BE2A6100811BDB /* Dot.m */,
+				8AFF431D18C0F0D10053B250 /* Button.h */,
+				8AFF431E18C0F0D10053B250 /* Button.m */,
+				8A98544718C30214006E9849 /* Number.h */,
+				8A98544818C30214006E9849 /* Number.m */,
 			);
 			path = Snake;
 			sourceTree = "<group>";
@@ -162,6 +190,15 @@
 				8A9EE5D818BD748A00811BDB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AECAC3418C6A52A00054A58 /* GameKitFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8AECAC3518C6A55100054A58 /* GameKitHelper.h */,
+				8AECAC3618C6A55100054A58 /* GameKitHelper.m */,
+			);
+			name = GameKitFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +300,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9EE5C518BD748A00811BDB /* MyScene.m in Sources */,
+				8AFF431F18C0F0D10053B250 /* Button.m in Sources */,
 				8A9EE5C218BD748A00811BDB /* ViewController.m in Sources */,
+				8A9EE5E718BD74AA00811BDB /* GameScene.m in Sources */,
+				8A98544918C30214006E9849 /* Number.m in Sources */,
+				8A9EE5EA18BE2A6100811BDB /* Dot.m in Sources */,
+				8AECAC3718C6A55100054A58 /* GameKitHelper.m in Sources */,
 				8A9EE5BC18BD748A00811BDB /* AppDelegate.m in Sources */,
 				8A9EE5B818BD748A00811BDB /* main.m in Sources */,
 			);
@@ -476,6 +518,7 @@
 				8A9EE5E118BD748A00811BDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A9EE5E218BD748A00811BDB /* Build configuration list for PBXNativeTarget "SnakeTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +527,7 @@
 				8A9EE5E418BD748A00811BDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,23 +9,31 @@
 #import "ViewController.h"
 #import "MyScene.h"
 
-@implementation ViewController
+@interface ViewController ()
 
+@end
+
+@implementation ViewController
+@synthesize scene;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
+    //self.view.backgroundColor = [UIColor colorWithRed:160/255.0 green:168/255.0 blue:147/255.0 alpha:1.0];
+    //UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"GridWithWall"]];
+    //[self.view addSubview:backgroundView];
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    //skView.showsFPS = YES;
+    //skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
+    scene = [GameScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
-    
     // Present the scene.
     [skView presentScene:scene];
+    
 }
 
 - (BOOL)shouldAutorotate
@@ -49,3 +57,4 @@
 }
 
 @end
+
